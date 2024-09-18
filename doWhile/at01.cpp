@@ -10,11 +10,11 @@ int main() {
     cout << "Digite um numero inteiro positivo: ";
     cin >> num;
     
-     
-        
-    while (i <= num){;
-    cout << i << " ";
-        i += 2;
-    }
+    do{ 
+       cout << i << " ";
+        i += 2; 
+    } while (i <= num);
+    
+    
     return 0;
 }
